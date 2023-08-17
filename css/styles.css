@@ -875,7 +875,7 @@ button {
   border-radius: 4px;
   width: 100%;
   height: 120px;
-  margin-bottom: 16px;
+
   outline: transparent;
   font-size: 12px;
   line-height: 1.17;
@@ -920,7 +920,7 @@ button {
   font-weight: 400;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.04em;
-  transition: color color 250ms cubic-bezier(0.4 0 0.2 1);
+  transition: color color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-label-policy {
   color: var(--lightslate, #8e8f99);
@@ -931,7 +931,7 @@ button {
   font-weight: 400;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.04em;
-  transition: color 250ms cubic-bezier(0.4 0 0.2 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -944,18 +944,13 @@ button {
 .privacy-checkbx {
   margin-bottom: 24px;
 }
-/* 
-.form-check:checked .spn-check {
-  background-color: #404bbf;
-  border: none;
-  fill: var(--background-color-main);
-} */
 
-.spn-check input:checked {
+.form-check:checked + .form-label-policy .spn-check {
   background-color: #404bbf;
   border: none;
   fill: var(--background-color-main);
 }
+
 .spn-check {
   width: 16px;
   height: 16px;
