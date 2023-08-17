@@ -835,10 +835,7 @@ button {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   color: var(--link-text-color);
-  /* padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 72px;
-  margin-bottom: 16px; */
+  margin-bottom: 16px;
   text-align: center;
 }
 .modal-field {
@@ -906,8 +903,12 @@ button {
 
   border: 0;
 }
+.comment {
+  margin-bottom: 16px;
+}
 .form-label {
   display: block;
+  margin-bottom: 4px;
   color: var(--lightslate, #8e8f99);
   /* Small Text */
   font-family: Roboto;
