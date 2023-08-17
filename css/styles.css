@@ -741,6 +741,7 @@ button {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   color: #ffffff;
 }
+
 .logo-footer {
   padding-top: 0;
   margin-bottom: 17.5px;
@@ -943,7 +944,14 @@ button {
 .privacy-checkbx {
   margin-bottom: 24px;
 }
+/* 
 .form-check:checked .spn-check {
+  background-color: #404bbf;
+  border: none;
+  fill: var(--background-color-main);
+} */
+
+.spn-check input:checked {
   background-color: #404bbf;
   border: none;
   fill: var(--background-color-main);
